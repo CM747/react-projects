@@ -6,10 +6,10 @@ Features:
 3. Game ends when either player wins or its a draw
 
 Landing Page:
-![Landing Page Image](https://github.com/CM747/react-projects/blob/main/tic-tac-toe/EditNamesAndSymbols.png)
+![Alt text](https://github.com/CM747/react-projects/blob/main/tic-tac-toe/landingPage.png)
 
 Edit Names and Symbols
-![Alt text](https://github.com/CM747/react-projects/blob/main/tic-tac-toe/landingPage.png)
+![Alt text](https://github.com/CM747/react-projects/blob/main/tic-tac-toe/EditNamesAndSymbols.png)
 ![Alt text](https://github.com/CM747/react-projects/blob/main/tic-tac-toe/StartGame.png)
 
 Play Game
