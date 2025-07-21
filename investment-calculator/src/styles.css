@@ -1,0 +1,57 @@
+/* App.css */
+
+:root {
+  --bg: #f4f7fb; /* Very light cool background */
+  --card-bg: #ffffff; /* Clean white card background */
+  --text-primary: #1f2937; /* Slightly softer than pure black */
+  --text-secondary: #6b7280; /* Muted gray for less important text */
+  --primary: #3b82f6; /* Vibrant blue from the logo */
+  --accent: #2563eb; /* Slightly darker blue for contrast */
+  --border: #d1d5db; /* Soft neutral border */
+  --font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg);
+  color: var(--text-primary);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.investmentTypeContainer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.investmentTypeContainer button {
+  background-color: var(--primary);
+  color: white;
+  border: 2px solid transparent;
+  padding: 0.6rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.investmentTypeContainer button:hover {
+  background-color: var(--accent);
+  transform: translateY(-1px);
+}
+
+.investmentTypeContainer button.active {
+  background-color: #ffffff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+}

@@ -1,0 +1,35 @@
+/* AnnualValuesTable.module.css */
+.tableContainer {
+  overflow-x: auto;
+  background-color: var(--card-bg);
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-family);
+  color: var(--text-primary);
+  background-color: var(--card-bg);
+}
+
+thead td {
+  background-color: var(--bg);
+  color: var(--text-secondary);
+  font-weight: bold;
+  padding: 12px;
+  border-bottom: 2px solid var(--border);
+  text-align: left;
+}
+
+tbody td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+}
+
+tbody tr:hover {
+  background-color: #f1f5f9; /* subtle hover */
+  transition: background-color 0.2s ease-in-out;
+}

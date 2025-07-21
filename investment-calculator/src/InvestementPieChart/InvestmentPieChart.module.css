@@ -1,0 +1,16 @@
+/* InvestmentPieChart.module.css */
+
+.container {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 350px;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
