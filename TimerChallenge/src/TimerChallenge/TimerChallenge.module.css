@@ -1,0 +1,79 @@
+.dialog {
+  background: #fcefdc; /* Matching the logo's beige background */
+  border: 4px solid #1d3557;
+  border-radius: 16px;
+  padding: 2rem 2rem 1.5rem;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  font-family: "Bungee", sans-serif;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+/* Cross close button */
+.dialog .closeButton {
+  font-family: "Orbitron", sans-serif;
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #1d3557;
+  transition: color 0.3s ease;
+}
+
+.dialog .closeButton:hover {
+  color: #e63946;
+  background: transparent;
+}
+
+.dialog p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #1d3557;
+}
+
+.dialog .result {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e63946;
+}
+
+.dialog .timerDisplay {
+  font-family: "Orbitron", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #f4a261;
+  margin: 1.5rem 0;
+}
+
+button {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  margin: 0.5rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+  color: #666;
+}
+
+button:not(:disabled) {
+  background-color: #2a9d8f;
+  color: white;
+}
+
+button:not(:disabled):hover {
+  background-color: #21867a;
+}
