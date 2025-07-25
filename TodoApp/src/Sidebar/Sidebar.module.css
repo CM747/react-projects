@@ -1,0 +1,62 @@
+.sidebar {
+  width: 250px;
+  padding: 1rem;
+  background-color: #f0f2f5;
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.newTodoButton {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.newTodoButton:hover {
+  background-color: #059669;
+}
+
+.todoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.todoItem {
+}
+
+.todoButton {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  padding: 0.6rem 0.8rem;
+  width: 100%;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.todoButton:hover {
+  background-color: #e0e7ff;
+}
+
+.active {
+  background-color: #6366f1;
+  color: white;
+  font-weight: bold;
+}
+
+.todoButton.active:hover {
+  background-color: #6366f1;
+}
