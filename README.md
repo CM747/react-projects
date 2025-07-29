@@ -9,10 +9,11 @@ These are some of the react projects done by me:
 
 
 
-useState
-useReducer
-useContext
-useRef
-useEffect
-useCallback
-createPortal
+React Concepts
+1. useState
+2. useReducer
+3. useContext
+4. useRef
+5. useEffect
+6. useCallback
+7. createPortal
