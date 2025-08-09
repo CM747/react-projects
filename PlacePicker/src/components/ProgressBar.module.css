@@ -1,0 +1,24 @@
+/* ProgressBar.module.css */
+.progress {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+  appearance: none;
+  margin: 1rem 0;
+}
+
+/* For WebKit browsers */
+.progress::-webkit-progress-bar {
+  background-color: #f3f4f6; /* light gray */
+}
+
+.progress::-webkit-progress-value {
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+  transition: width 0.1s ease;
+}
+
+/* For Firefox */
+.progress::-moz-progress-bar {
+  background: linear-gradient(90deg, #1e3a8a, #3b82f6);
+}

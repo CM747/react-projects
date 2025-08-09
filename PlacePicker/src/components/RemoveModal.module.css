@@ -1,0 +1,55 @@
+/* RemoveModal.module.css */
+.modal {
+  border: none;
+  border-radius: 16px;
+  padding: 1.5rem;
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+  width: 300px;
+  text-align: center;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin-bottom: 1rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.confirmButton {
+  background-color: #b91c1c;
+  color: white;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.25s ease;
+}
+
+.confirmButton:hover {
+  background-color: #dc2626;
+}
+
+.cancelButton {
+  background-color: #e5e7eb;
+  color: #374151;
+  border: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.25s ease;
+}
+
+.cancelButton:hover {
+  background-color: #d1d5db;
+}
