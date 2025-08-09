@@ -6,6 +6,7 @@ These are some of the react projects done by me:
 3. TimerChallange: Measure your response times by stopping at correct time. Learnings: useRef, createPortal
 4. TodoApp: Add todos and related tasks. Learnings: useState, useRef, createPortal
 5. QuizApp: A quiz challenge with timer for skips. Learnings: useContext/Context API, useReducer, useEffect, useCallback
+6. PlacePicker: A app to pick places to visit. Learnings: custom hooks, http requests and response
 
 
 
